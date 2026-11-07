@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EDUFAMILY | Free Education</title>
+<meta name="description" content="EDUFAMILY - Free Online Education for All">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#0b0b0f;color:white}
+header{padding:20px 7%;display:flex;justify-content:space-between;align-items:center;background:#141419;border-bottom:2px solid #e51b3e}
+.logo{font-size:25px;font-weight:bold}
+.logo span{color:#ef294b}
+nav a{color:white;text-decoration:none;margin:0 10px;font-size:14px}
+.hero{text-align:center;padding:85px 20px;background:linear-gradient(135deg,#17171d,#390b19)}
+.hero h1{font-size:42px;margin-bottom:15px}
+.hero h1 span{color:#ff3153}
+.hero p{color:#ddd;line-height:1.8}
+.btn{display:inline-block;margin:20px 7px;padding:13px 23px;border-radius:7px;background:#e51b3e;color:white;text-decoration:none;font-weight:bold}
+.btn.dark{background:#292930}
+section{padding:55px 7%}
+.heading{text-align:center;font-size:29px;margin-bottom:30px}
+.heading span{color:#ff3153}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px}
+.card{background:#19191f;padding:27px;border:1px solid #333;border-radius:12px;text-align:center}
+.card h3{color:#ff3153;margin:12px 0}
+.card p{color:#bbb;font-size:14px;line-height:1.6}
+.card a{display:inline-block;margin-top:15px;color:white;text-decoration:none;background:#b91435;padding:9px 16px;border-radius:5px}
+.about{text-align:center;background:#15151b}
+footer{text-align:center;background:#09090c;padding:28px;color:#aaa;font-size:13px}
+footer strong{color:#ff3153}
+@media(max-width:650px){
+header{flex-direction:column;gap:15px}
+nav{display:flex;flex-wrap:wrap;justify-content:center;gap:12px}
+nav a{margin:0}
+.hero h1{font-size:32px}
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">EDU<span>FAMILY</span></div>
+<nav>
+<a href="#home">HOME</a>
+<a href="#ol">O/L</a>
+<a href="#al">A/L</a>
+<a href="#gk">GK</a>
+<a href="#seminar">SEMINAR</a>
+<a href="#news">NEWS</a>
+</nav>
+</header>
+
+<div class="hero" id="home">
+<h1>WELCOME TO <span>EDUFAMILY</span></h1>
+<p>FREE ONLINE EDUCATION FOR ALL</p>
+<p>Learn More. Dream Big. Achieve More.</p>
+<a class="btn" href="#ol">Explore Resources</a>
+<a class="btn dark" href="#seminar">Free Seminars</a>
+</div>
+
+<section>
+<h2 class="heading">OUR <span>EDUCATION ZONE</span></h2>
+<div class="cards">
+<div class="card" id="ol">
+<h3>O/L EDUCATION</h3>
+<p>Notes, Past Papers and Learning Resources.</p>
+<a href="https://edufamilyintamil.blogspot.com/search/label/OL">Explore O/L</a>
+</div>
+<div class="card" id="al">
+<h3>A/L EDUCATION</h3>
+<p>Study Materials and Educational Resources.</p>
+<a href="https://edufamilyintamil.blogspot.com/search/label/AL">Explore A/L</a>
+</div>
+<div class="card" id="gk">
+<h3>GENERAL KNOWLEDGE</h3>
+<p>Improve your knowledge with EDUFAMILY.</p>
+<a href="https://edufamilyintamil.blogspot.com/search/label/GK">Explore GK</a>
+</div>
+<div class="card" id="seminar">
+<h3>FREE SEMINARS</h3>
+<p>Join our free online educational seminars.</p>
+<a href="https://wa.me/">Join Us</a>
+</div>
+<div class="card" id="news">
+<h3>EDUCATION NEWS</h3>
+<p>Latest educational updates and information.</p>
+<a href="https://edufamilyintamil.blogspot.com/">Read News</a>
+</div>
+<div class="card">
+<h3>PDF LIBRARY</h3>
+<p>Educational PDF resources and study papers.</p>
+<a href="https://drive.google.com/">Open Library</a>
+</div>
+</div>
+</section>
+
+<section class="about">
+<h2 class="heading">ABOUT <span>EDUFAMILY</span></h2>
+<p>EDUFAMILY is a free educational community dedicated to helping students learn and grow.</p>
+<br>
+<p>Founder: <strong>babidhilkshan</strong></p>
+</section>
+
+<footer>
+<p>© 2026 EDUFAMILY | Free Education For All</p>
+<p>Dream Big, Achieve More!</p>
+</footer>
+
+</body>
+</html>
